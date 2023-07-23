@@ -11,13 +11,13 @@
 
 ## Admin
 
-### login
+### 1.login
 
 API: login
 
 Công dụng: đăng nhập
 
-Url:http://localhost:3000/api/admin/login
+Url:https://cosmetics.onrender.com/api/admin/login
 
 Method: Post
 
@@ -44,13 +44,13 @@ Response:
 
 ```
 
-### Token
+### 2.Token
 
 API: token
 
 Công dụng: lấy token đăng nhập
 
-Url:http://localhost:3000/api/admin/token
+Url:https://cosmetics.onrender.com/api/admin/token
 
 Method: Get
 
@@ -72,13 +72,13 @@ Response:
 
 ```
 
-### Categories
+### 3.Categories
 
 API: Get categories
 
 Công dụng: xem các categories đang có
 
-Url:http://localhost:3000/api/admin/categories
+Url:https://cosmetics.onrender.com/api/admin/categories
 
 Method: Get
 
@@ -120,13 +120,13 @@ Response:
 ]
 
 ```
-### Insert Categories
+### 4.Insert Categories
 
 API: post categories
 
 Công dụng: thêm categories 
 
-Url:http://localhost:3000/api/admin/categories
+Url:https://cosmetics.onrender.com/api/admin/categories
 
 Method: Post
 
@@ -153,13 +153,13 @@ Response:
     "name": "iPad"
 }
 ```
-### Update Categories
+### 5.Update Categories
 
 API: Put name categories
 
 Công dụng: Cập nhật name categories
 
-Url:http://localhost:3000/api/admin/categories/64b7fdd7dd1100adf12fb6f8
+Url:https://cosmetics.onrender.com/api/admin/categories/64b7fdd7dd1100adf12fb6f8
 
 Method: Put
 
@@ -186,13 +186,13 @@ Response:
     "name": "Iphonee"
 }
 ```
-### Delete Categories
+### 6.Delete Categories
 
 API: Delete categories
 
 Công dụng: xóa categories
 
-Url:http://localhost:3000/api/admin/categories/64b7fdd7dd1100adf12fb6f8
+Url:https://cosmetics.onrender.com/api/admin/categories/64b7fdd7dd1100adf12fb6f8
 
 Method: DELETE
 
@@ -211,13 +211,13 @@ Response:
     "name": "Iphonee"
 }
 ```
-### Products 
+### 7.Products 
 
 API: Get Products
 
 Công dụng: Lấy dữ liệu trang 1 của products
 
-Url:http://localhost:3000/api/admin/products?page=4
+Url:https://cosmetics.onrender.com/api/admin/products?page=4
 
 Method: Get
 
@@ -271,13 +271,13 @@ Response:
     "curPage": 4
 }
 ```
-### Update Products
+### 8.Update Products
 
 API: Put Products
 
 Công dụng: cập nhật products 
 
-Url:http://localhost:3000/api/admin/products/64a78cf03082d862fe3d0472
+Url:https://cosmetics.onrender.com/api/admin/products/64a78cf03082d862fe3d0472
 
 Method: Put
 
@@ -313,13 +313,13 @@ Response:
     }
 }
 ```
-### Delete Products
+### 9.Delete Products
 
 API: Delete Products
 
 Công dụng: xóa Products
 
-Url:http://localhost:3000/api/admin/products/648295f9e74c70b8e060438a
+Url:https://cosmetics.onrender.com/api/admin/products/648295f9e74c70b8e060438a
 
 Method: DELETE
 
@@ -345,13 +345,13 @@ Response:
     }
 }
 ```
-### Get orders
+### 10.Get orders
 
 API: Get orders
 
 Công dụng: Xem thông tin và sản phẩm orders
 
-Url:http://localhost:3000/api/customer/orders/customer/64b8f7c28a0fea2f63eb6d40
+Url:https://cosmetics.onrender.com/api/customer/orders/customer/64b8f7c28a0fea2f63eb6d40
 
 Method: Get
 
@@ -406,13 +406,13 @@ Response:
     }
 ]
 ```
-### approver or canceled orders
+### 11.approver or canceled orders
 
 API: approver or canceled orders
 
 Công dụng: thêm categories 
 
-Url:http://localhost:3000/api/admin/categories
+Url:https://cosmetics.onrender.com/api/admin/categories
 
 Method: Put
 
@@ -467,13 +467,13 @@ Response:
     ]
 }
 ```
-### Get customer
+### 12.Get customer
 
 API: Get customer
 
 Công dụng: Xem thông của các customer
 
-Url:http:http://localhost:3000/api/admin/customers
+Url:https://cosmetics.onrender.com/api/admin/customers
 
 Method: Get
 
@@ -510,13 +510,13 @@ Response:
     }
 ]
 ```
-### Get order customer (fale)
+### 13.Get order customer (fale)
 
 API: Get order customer
 
 Công dụng: 
 
-Url:http://localhost:3000/api/admin/orders/customer/64b8ecbe8a0fea2f63eb6d30
+Url:https://cosmetics.onrender.com/api/admin/orders/customer/64b8ecbe8a0fea2f63eb6d30
 
 Method: Get
 
@@ -536,13 +536,13 @@ Response:
 ----------------------------------------------------------------------------------------------------------------
 ## Customer
 
-### Get categories
+### 14.Get categories
 
 API: Get categories
 
 Công dụng: lấy categories
 
-Url:http://localhost:3000/api/customer/categories
+Url:https://cosmetics.onrender.com/api/customer/categories
 
 Method: Get
 
@@ -565,13 +565,13 @@ Response:
     }
 ]
 ```
-### Get products new
+### 15.Get products new
 
 API: Get products new
 
 Công dụng: lấy products mới
 
-Url:http://localhost:3000/api/customer/products/new
+Url:https://cosmetics.onrender.com/api/customer/products/new
 
 Method: Get
 
@@ -615,13 +615,13 @@ Response:
     }
 ]
 ```
-### Get products hot
+### 16.Get products hot
 
 API: Get products hot
 
 Công dụng: lấy products được mua nhiều
 
-Url:http://localhost:3000/api/customer/products/hot
+Url:https://cosmetics.onrender.com/api/customer/products/hot
 
 Method: Get
 
@@ -633,13 +633,13 @@ Response:
     null
 }
 ```
-### Get products hot
+### 17.Get products hot
 
 API: Get products hot
 
 Công dụng: lấy products được mua nhiều
 
-Url:http://localhost:3000/api/customer/products/hot
+Url:https://cosmetics.onrender.com/api/customer/products/hot
 
 Method: Get
 
@@ -651,13 +651,13 @@ Response:
     null
 }
 ```
-### Get category cid
+### 18.Get category cid
 
 API: Get category cid
 
 Công dụng: lấy cid của caterogy cho customer
 
-Url:http://localhost:3000/api/customer/products/category/6288b164708fabf8ab29ca0a
+Url:https://cosmetics.onrender.com/api/customer/products/category/6288b164708fabf8ab29ca0a
 
 Method: Get
 
@@ -701,13 +701,13 @@ Response:
     }
 ]
 ```
-### Seach
+### 19.Seach
 
 API: seach
 
 Công dụng: Tìm kiếm
 
-Url:http://localhost:3000/api/customer/products/search/pro
+Url:https://cosmetics.onrender.com/api/customer/products/search/pro
 
 Method: Get
 
@@ -762,13 +762,13 @@ Response:
     }
 ]
 ```
-### Get products id
+### 20.Get products id
 
 API: Get products id
 
 Công dụng: lấy id của product cho customer
 
-Url:http://localhost:3000/api/customer/products/6288bd295ddf350614f2a916
+Url:https://cosmetics.onrender.com/api/customer/products/6288bd295ddf350614f2a916
 
 Method: Get
 
@@ -788,13 +788,13 @@ Response:
     }
 }
 ```
-### Đăng ký tài khoản
+### 21.Đăng ký tài khoản
 
 API: Đăng ký
 
 Công dụng: Đăng ký tài khoản
 
-Url:http://localhost:3000/api/customer/signup
+Url:https://cosmetics.onrender.com/api/customer/signup
 
 Method: Post
 
@@ -816,13 +816,13 @@ Response:
     "message": "Please check email"
 }
 ```
-### Post active
+### 22.Post active
 
 API: Post active
 
 Công dụng: active tài khoản 
 
-Url:http://localhost:3000/api/customer/active
+Url:https://cosmetics.onrender.com/api/customer/active
 
 Method: Post
 
@@ -847,13 +847,13 @@ Response:
     "token": "bae596083dafd8e247f07c09ef22562d"
 }
 ```
-### Login
+### 23.Login
 
 API: Đăng nhập
 
 Công dụng: Đăng nhập 
 
-Url:http://localhost:3000/api/customer/login
+Url:https://cosmetics.onrender.com/api/customer/login
 
 Method: Post
 
@@ -883,13 +883,13 @@ Response:
     }
 }
 ```
-### token
+### 24.token
 
 API: Check token
 
 Công dụng: check token customer
 
-Url:http://localhost:3000/api/customer/token
+Url:https://cosmetics.onrender.com/api/customer/token
 
 Method: Get
 
@@ -908,13 +908,13 @@ Response:
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODk4NDE5MTUsImV4cCI6MTY4OTg0NTUxNX0.5ftJbk5WYpgD2mdRcyC_6RuSqiKZ0zvaQWCLqSPBgxc"
 }
 ```
-### Update Customer
+### 25.Update Customer
 
 API: Put customer
 
 Công dụng: cập nhật thông tin customer
 
-Url:http://localhost:3000/api/customer/customers/64b8ecbe8a0fea2f63eb6d30
+Url:https://cosmetics.onrender.com/api/customer/customers/64b8ecbe8a0fea2f63eb6d30
 
 Method: Put
 
@@ -951,13 +951,13 @@ Response:
     "token": "bae596083dafd8e247f07c09ef22562d"
 }
 ```
-### Update Customer
+### 26.Update Customer
 
 API: Put customer
 
 Công dụng: cập nhật thông tin customer
 
-Url:http://localhost:3000/api/customer/customers/64b8ecbe8a0fea2f63eb6d30
+Url:https://cosmetics.onrender.com/api/customer/customers/64b8ecbe8a0fea2f63eb6d30
 
 Method: Put
 
@@ -994,13 +994,13 @@ Response:
     "token": "bae596083dafd8e247f07c09ef22562d"
 }
 ```
-### Checkout
+### 27.Checkout
 
 API: post checkout
 
 Công dụng: Thanh toán 
 
-Url:http://localhost:3000/api/customer/checkout
+Url:https://cosmetics.onrender.com/api/customer/checkout
 
 Method: Put
 
@@ -1027,13 +1027,13 @@ Response:
     "items": []
 }
 ```
-### Get orders
+### 28.Get orders
 
 API: Get orders
 
 Công dụng: Xem thông tin và sản phẩm orders
 
-Url:http://localhost:3000/api/customer/orders/customer/64b8f7c28a0fea2f63eb6d40
+Url:https://cosmetics.onrender.com/api/customer/orders/customer/64b8f7c28a0fea2f63eb6d40
 
 Method: Get
 
