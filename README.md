@@ -29,7 +29,7 @@ Request:
 {
    "username": "admin",
    "password": "12345"
-   "
+   "active":"0"
 }
 
 ```
