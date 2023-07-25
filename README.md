@@ -29,6 +29,7 @@ Request:
 {
    "username": "admin",
    "password": "12345"
+   "
 }
 
 ```
@@ -1034,6 +1035,39 @@ Response:
 ```json
 {
 null
+}
+```
+### 29.Checkout
+
+API: Post checkout
+
+Công dụng: Thanh toán sản phẩm
+
+Url:https://cosmetics.onrender.com/api/customer/checkout
+
+Method: Post
+
+Request:
++ Headers:
+
+| Key           | Value         |
+|---------------|---------------|
+|x-access-token |eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODk4NDE5MTUsImV4cCI6MTY4OTg0NTUxNX0.5ftJbk5WYpgD2mdRcyC_6RuSqiKZ0zvaQWCLqSPBgxc|
+
++Body:
+```json
+{
+}
+```
+
+Response:
+  
+```json
+{
+    "_id": "64bfa1d651e84f93f44f8f8b",
+    "cdate": 1690280406446,
+    "status": "PENDING",
+    "items": []
 }
 ```
 
