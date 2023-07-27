@@ -18,6 +18,11 @@ router.get('/categories', async function (req, res) {
   res.json(categories);
 });
 // product
+router.get('/products/all', async function (req, res) {
+  const products = await ProductDAO.selectAll();
+  res.json(products);
+});
+
 router.get('/products/new', async function (req, res) {
   const products = await ProductDAO.selectTopNew(3);
   res.json(products);
